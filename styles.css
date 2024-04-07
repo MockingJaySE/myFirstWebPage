@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins";
+}
+body {
+  margin: 0 auto;
+}
+/* navigation */
+.navigation_bar {
+  background-color: rgba(20, 59, 75, 1);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 3rem;
+}
+.navigation_bar_list {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  gap: 5rem;
+  font-size: 20px;
+
+  align-items: center;
+}
+.navigation_bar_link {
+  text-decoration: none;
+  color: white;
+}
+
+.navigation_bar_login_button {
+  border: none;
+  font-size: 20px;
+  padding: 5px 20px;
+  border-radius: 20px;
+  background-color: rgba(101, 228, 163, 1);
+}
+
+/* Hero_section */
+
+.about_us {
+  background-color: rgba(10, 38, 64, 1);
+  color: white;
+  height: 600px;
+  padding: 4rem 8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 1.5rem;
+}
+.Hero_section_main_hedding {
+  font-size: 3rem;
+}
+
+.Hero_section_paragraph {
+  opacity: 0.5;
+}
+
+/* Hero_Images */
+
+.grid_Items {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 300px 300px;
+  gap: 2rem;
+  position: absolute;
+  top: 550px;
+  width: 50%;
+  justify-content: center;
+}
+.grid_Items > :nth-child(2) {
+  grid-row: span 2;
+}
+
+.Hero_Images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sizing_image {
+  height: 305px;
+  width: 302px;
+}
+.about_us {
+}
