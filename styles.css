@@ -171,4 +171,36 @@ body {
 }
 .post {
   opacity: 0.8;
+  color: rgba(170, 168, 168, 0.973);
+}
+
+/* Leadership */
+
+.leaderShip {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 5rem;
+  gap: 2rem;
+  background-color: rgba(10, 38, 64, 1);
+  color: white;
+}
+
+.cartContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.imgCart {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  margin-top: 3rem;
+  background-color: rgba(20, 59, 75, 1);
+  padding: 2rem 3rem;
+  border-radius: 25px;
+  width: 80%;
+  justify-content: center;
+  align-items: center;
 }
