@@ -204,3 +204,23 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+/* Footer */
+
+.footer {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  padding: 3rem 5rem;
+  gap: 10rem;
+  justify-content: space-between;
+}
+.footerLeft {
+  width: 40%;
+}
+
+.footerText {
+  display: flex;
+  flex-direction: row;
+  gap: 10rem;
+}
